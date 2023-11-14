@@ -101,6 +101,9 @@ for i in sample_concentration:
 # print(reducing_buffer)
 
 
+
+
+
 with open('BCA results and calculation.csv', 'w', newline='') as csvfile:
     spamwriter = csv.writer(csvfile, dialect='excel')
     spamwriter.writerow(['', 'sample name', 'sample name', 'sample name',
